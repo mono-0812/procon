@@ -1,0 +1,12 @@
+{
+	"id": 19675830,
+	"epoch_second": 1611492349,
+	"problem_id": "codefestival_2016_qualB_b",
+	"contest_id": "code-festival-2016-qualb",
+	"user_id": "mono_0812",
+	"language": "PyPy3 (7.3.0)",
+	"point": 200,
+	"length": 421,
+	"result": "AC",
+	"execution_time": 195
+}
