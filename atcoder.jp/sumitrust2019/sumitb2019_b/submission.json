@@ -1,0 +1,12 @@
+{
+	"id": 19682849,
+	"epoch_second": 1611529176,
+	"problem_id": "sumitb2019_b",
+	"contest_id": "sumitrust2019",
+	"user_id": "mono_0812",
+	"language": "PyPy3 (7.3.0)",
+	"point": 200,
+	"length": 89,
+	"result": "AC",
+	"execution_time": 67
+}
