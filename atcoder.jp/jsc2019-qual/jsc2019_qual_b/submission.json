@@ -1,0 +1,12 @@
+{
+	"id": 22332782,
+	"epoch_second": 1620219095,
+	"problem_id": "jsc2019_qual_b",
+	"contest_id": "jsc2019-qual",
+	"user_id": "mono_0812",
+	"language": "Cython (0.29.16)",
+	"point": 300,
+	"length": 805,
+	"result": "AC",
+	"execution_time": 273
+}

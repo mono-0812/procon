@@ -1,0 +1,28 @@
+import bisect,collections,copy,heapq,itertools,math,string,sys,queue
+input = lambda: sys.stdin.readline().rstrip()
+def I(): return input()
+def IS(): return input().split()
+def II(): return int(input())
+def IIS(): return map(int,input().split())
+def LIIS(): return list(map(int,input().split()))
+ragen=range
+INF=10**10
+MOD=10**9+7
+##############################################################################
+n=II()
+def make_divisors(n):
+    divisors = []
+    for i in range(1, int(n**0.5)+1):
+        if n % i == 0:
+            divisors.append(i)
+            if i != n // i:
+                divisors.append(n//i)
+
+    divisors.sort()
+    return divisors
+if n*2==sum(make_divisors(n)):
+    print("Perfect")
+elif n*2>sum(make_divisors(n)):
+    print("Deficient")
+else:
+    print("Abundant")

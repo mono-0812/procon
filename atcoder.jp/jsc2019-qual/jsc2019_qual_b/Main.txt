@@ -1,0 +1,29 @@
+import bisect,collections,copy,heapq,itertools,math,string,sys,queue
+input = lambda: sys.stdin.readline().rstrip()
+def I(): return input()
+def IS(): return input().split()
+def II(): return int(input())
+def IIS(): return map(int,input().split())
+def LIIS(): return list(map(int,input().split()))
+ragen=range
+INF=10**10
+MOD=10**9+7
+##############################################################################
+def main():
+    n,k=IIS()
+    A=LIIS()
+    ans=0
+    for i in range(n):
+        cnt1=0#iまで
+        cnt2=0#ぜんぶ
+        for j in range(n):
+            if A[j]>A[i]:
+                cnt2+=1
+                if j<=i:
+                    cnt1+=1
+        val=k*(k-1)//2
+        ans=(ans+(cnt1*k)+(cnt2*val))%MOD
+    print(ans)
+if __name__=="__main__":
+    main()
+
